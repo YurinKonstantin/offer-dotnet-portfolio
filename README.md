@@ -13,3 +13,9 @@
 dotnet run --project src/PortfolioApi
 dotnet test
 ```
+
+## Шаг 2. Каталог товаров
+
+- `GET /products` — список товаров из каталога в памяти.
+- `GET /products/{id}` — один товар или 404.
+- Тесты: `ProductsTests` (список, товар по id, 404).
